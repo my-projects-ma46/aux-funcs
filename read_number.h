@@ -11,6 +11,9 @@ read_float()     ler e retorna um float
 read_double()    ler e retorna um double
 */
 
+#ifndef MY_READ_NUMBER
+#define MY_READ_NUMBER
+
 #define MAX_INPUT 25
 
 void getMaxMinInt(int *min, int *max) {
@@ -126,3 +129,5 @@ double read_double() {
     char lixo = getc(stdin);
     return dobro;
 }
+
+#endif
