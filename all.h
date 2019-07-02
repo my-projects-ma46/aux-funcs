@@ -7,6 +7,8 @@
 #include "lower_char.h"
 #include "upper_string.h"
 #include "lower_string.h"
+#include "capitalize.h"
+#include "del_extra_spaces.h"
 
 // I had problems including this one
 //#include "string_handling.h"

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #ifndef MY_CLEAR_SCREEN
 #define MY_CLEAR_SCREEN
